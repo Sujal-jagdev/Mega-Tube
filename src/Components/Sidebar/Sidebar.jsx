@@ -89,36 +89,7 @@ const Sidebar = ({ sidebar, category, setCategory }) => {
         <hr className=' text-light m-2' />
         <p className=' text-light fs-6 fw-bolder ms-3'>Subscibers</p>
 
-        {/* Subscibers */}
-        <div className="sideLink col-10 align-items-center ps-2 pt-2" >
-          <span className=' text-light fs-4 d-flex gap-3'>
-            <div className="side-user">
-            </div>
-            <p className=' fs-6 text-light '>Carry Minati</p>
-          </span>
-        </div>
-
-        <div className="sideLink col-10 align-items-center ps-2 pt-2" >
-          <span className=' text-light fs-4 d-flex gap-3'>
-            <div className="side-user">
-            </div>
-            <p className=' fs-6 text-light'>Techno Gamerz</p>
-          </span>
-        </div>
-
-        <div className="sideLink col-10 align-items-center ps-2 pt-2" >
-          <span className=' text-light fs-4 d-flex gap-3'>
-            <div className="side-user"></div>
-            <p className=' fs-6 text-light '>Carry Minati</p>
-          </span>
-        </div>
-
-        <div className="sideLink col-10 align-items-center ps-2 pt-2">
-          <span className=' text-light fs-4 d-flex gap-3'>
-            <div className="side-user"></div>
-            <p className=' fs-6 text-light '>Carry Minati</p>
-          </span>
-        </div>
+        <h3 className=' text-light text-center' style={{ opacity: '15%' }}>Made By Sujal jagdev</h3>
 
       </div>
       {/* Footrer Of Tab And Phone Screen */}
