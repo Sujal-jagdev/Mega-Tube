@@ -1,0 +1,29 @@
+.feed{
+    padding-top: 6%;
+}
+.card{
+    background-color: #222;
+    transition: 0.3s;
+    border-radius: 10px;
+    border: 0px;
+    padding: 13px 20px;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    height: 190px;
+    object-fit: cover;
+}
+.card:hover{
+    background-color: rgba(211, 211, 211, 0.031);
+}
+.con-4 h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.con-4 h4{
+    font-size: 15px;
+}
+.con-4 p{
+    font-size: 13px;
+}

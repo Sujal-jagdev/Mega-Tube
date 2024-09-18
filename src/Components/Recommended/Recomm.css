@@ -1,0 +1,24 @@
+@media (min-width: 320px) and (max-width: 575px){
+    .recom-info h6{
+        font-size: 17px;
+    }
+    .recom-info p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .recom-info h6{
+        font-size: 18px;
+    }
+    .recom-info p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .recom-info h6{
+        font-size: 20px;
+    }
+    .recom-info p{
+        font-size: 16px;
+    }
+}

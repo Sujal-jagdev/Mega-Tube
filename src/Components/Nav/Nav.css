@@ -1,0 +1,27 @@
+/* {$$ Navbar CSS $$} */
+nav{
+    /* border-bottom: 1px solid rgba(211, 211, 211, 0.347); */
+    box-shadow: 0px 0px 10px rgba(211, 211, 211, 0.186);
+    position: fixed;
+    background-color: #222;
+    z-index: 999;
+}
+.mic{
+    padding: 7px 10px;
+    margin-left: 2%;
+}
+.ser{
+    border: 2px solid rgba(211, 211, 211, 0.525);
+}
+.noti-sup{
+    font-size: 12px;
+    padding: 1px 4px;
+}
+.profile{
+    background-image: url('https://images.unsplash.com/photo-1708696767929-fc5bd50c164c?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}

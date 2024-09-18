@@ -1,0 +1,47 @@
+.SideBar{
+    position: fixed;
+    height: 100vh;
+    overflow-y: scroll;
+    top: 13%;
+}
+.sideLink{
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sideLink:hover{
+    background-color: #ffffff5b;
+}
+.side-user{
+    height: 30px;
+    width: 30px;
+ background-image: url('https://static.india.com/wp-content/uploads/2023/06/Who-is-CarryMinati.jpg?impolicy=Medium_Resize&w=1200&h=800'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+}
+.SideBar::-webkit-scrollbar{
+    width: 3px;
+}
+.SideBar::-webkit-scrollbar-thumb{
+    background-color: rgba(211, 211, 211, 0.413);
+    border-radius: 30px;
+}
+.small-sidebar{
+    width: 80px;
+}
+.small-sidebar p{
+    display: none;
+}
+.small-sidebar .sideLink span{
+    padding: 17% 15%;
+}
+.side-footer{
+    z-index: 9;
+}
+.active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid red;
+    border-radius: 0px;
+}
